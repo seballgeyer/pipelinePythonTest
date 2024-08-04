@@ -1,9 +1,9 @@
 name: Publish Python distributions to PyPI
 
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types:
+      - published
   workflow_run:
     workflows: ["Python CICD pipelines - Unittesting"]
     types:
