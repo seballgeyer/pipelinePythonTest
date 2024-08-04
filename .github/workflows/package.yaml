@@ -30,3 +30,4 @@ jobs:
           pip install wheel
           pip install setuptools
           pip install versionner
+          pip install numpy
